@@ -5,8 +5,8 @@ app = Flask(__name__)
 @app.route('/secret_route')
 def secret():
     password = request.args.get('secret_key')
-    if password == 'ihatemybosshealwaysmakesmedomoreworkbruhalsofollowhackingcluboninsta':
-        return "Your secret is 0xCTF{ca75_4R3_c001_Bu7_L34Rn_g17_8Ruh}"
+    if password == '[REDACTED]':
+        return "Your secret is [REDACTED]"
     else:
         return "booo you can't find my secret dum dum"
 
